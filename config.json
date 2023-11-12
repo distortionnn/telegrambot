@@ -1,13 +1,13 @@
 {
-    "admin_tg_id": 1,
-    "one_month_cost": 120,
-    "three_month_cost": 240,
-    "six_month_cost": 720,
-    "trial_period": 2700,
-    "UTC_time": 4,
-    "max_people_server": 20,
-    "tg_token": "",
-    "tg_shop_token": "",
+    "admin_tg_id": 616305943,
+    "one_month_cost": 99,
+    "three_month_cost": 299,
+    "six_month_cost": 499,
+    "trial_period": 259200,
+    "UTC_time": 3,
+    "max_people_server": 30,
+    "tg_token": "6767228485:AAHgajuKd9IRWpEFszz94vi6OfwB3xWxeqg",
+    "tg_shop_token": "381764678:TEST:71168",
     "tg_wallet_token": ""
     }
     
