@@ -1,0 +1,17 @@
+###############################################################
+                    Установка Ouline VPN
+1) Арендуйте сервер
+2) Подключитесь к серверу через SSH
+3) sudo apt update
+4) sudo apt upgrade
+5) sudo wget -qO- https://raw.githubusercontent.com/Jigsaw-Code/outline-server/master/src/server_manager/install_scripts/install_server.sh | bash
+
+При необходимости можно установить Docker отдельно до ввода 5 команды
+  sudo curl https://get.docker.com | sh
+
+Когда скрипт закончит работу выведет вот такой текст:
+{ 
+  "apiUrl": "https://0.0.0.0:0000/XXXXXXXXXXXX", 
+  "certSha256": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" 
+}
+Обязательно сохраните его к себе на компьютер, это настройки для подключения в бота.

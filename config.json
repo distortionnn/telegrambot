@@ -1,0 +1,13 @@
+{
+    "admin_tg_id": 1,
+    "one_month_cost": 120,
+    "three_month_cost": 240,
+    "six_month_cost": 720,
+    "trial_period": 2700,
+    "UTC_time": 4,
+    "max_people_server": 20,
+    "tg_token": "",
+    "tg_shop_token": "",
+    "tg_wallet_token": ""
+    }
+    
