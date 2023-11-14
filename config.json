@@ -1,13 +1,13 @@
 {
     "admin_tg_id": 616305943,
     "one_month_cost": 99,
-    "three_month_cost": 299,
+    "three_month_cost": 249,
     "six_month_cost": 499,
     "trial_period": 259200,
     "UTC_time": 3,
     "max_people_server": 30,
     "tg_token": "6767228485:AAHgajuKd9IRWpEFszz94vi6OfwB3xWxeqg",
-    "tg_shop_token": "381764678:TEST:71168",
+    "tg_shop_token": "390540012:LIVE:42652",
     "tg_wallet_token": ""
     }
     
