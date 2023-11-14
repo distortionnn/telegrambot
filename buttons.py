@@ -18,7 +18,7 @@ async def main_buttons(user: User):
             Butt_main.add(types.KeyboardButton(e.emojize(f":green_circle: До: {dateto} МСК:green_circle:")))
 
         Butt_main.add(types.KeyboardButton(e.emojize(f"Продлить :money_bag:")),types.KeyboardButton(e.emojize(f"Подключить VPN :gear:")))
-        Butt_main.add(types.KeyboardButton(e.emojize(f"Узнать о VPN :thinking_face:")))
+        Butt_main.add(types.KeyboardButton(e.emojize(f"FAQ :thinking_face:")))
 
         if CONFIG["admin_tg_id"] == user.tgid:
             Butt_main.add(types.KeyboardButton(e.emojize(f"Админ-панель :smiling_face_with_sunglasses:")))
