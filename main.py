@@ -704,6 +704,8 @@ async def Pay_month(call: types.CallbackQuery):
         price = await get_amount(Month_count);
         bill = await bot.send_invoice(call.message.chat.id, f"Оплата VPN", f"VPN на {str(Month_count)} мес.", call.data,
                                       currency="RUB", prices=[types.LabeledPrice(f"VPN на {str(Month_count)} мес.", price * 100)],
+                                      send_phone_number_to_provider=True,
+                                      provider_data='{"receipt":{"items":[{' + f'"description":"VPN на {str(Month_count)} мес.","quantity":"1.00","amount":{{"value":"{price}","currency":"RUB"}},"vat_code":1' + '}]}}',
                                       provider_token=CONFIG["tg_shop_token"])
     await bot.answer_callback_query(call.id)
 
