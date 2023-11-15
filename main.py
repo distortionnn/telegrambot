@@ -582,7 +582,7 @@ async def Work_with_Message(m: types.Message):
             await bot.set_state(m.from_user.id,MyStates.AdminNewUser)
             return
 
-    if e.demojize(m.text) == "Узнать о VPN :thinking_face:":
+    if e.demojize(m.text) == "FAQ :thinking_face:":
         await bot.send_message(m.chat.id,text_mess['about_message'], parse_mode="HTML")
 
     if e.demojize(m.text) == "Продлить :money_bag:":
